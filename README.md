@@ -16,7 +16,10 @@
 Билд:
 Для сервера
 g++ server.cpp -o server -std=c++20 -lzmq -lpthread
+
 Для клиента
 g++ client.cpp -o client -std=c++20 -lzmq -lpthread
 
 Клиент работает в двух режимах: zmq, http
+
+Потребуется установка библиотеки ZeroMQ
